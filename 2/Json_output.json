@@ -1,0 +1,43 @@
+ {
+     "compute": {
+         "location": "westus2",
+         "name": "Win10",
+         "offer": "Windows",
+         "osType": "Windows",
+         "placementGroupId": "",
+         "platformFaultDomain": "0",
+         "platformUpdateDomain": "0",
+         "publisher": "MicrosoftVisualStudio",
+         "resourceGroupName": "****",
+         "sku": "Windows-10-N-x64",
+         "subscriptionId": "****",
+         "tags": "",
+         "version": "2017.10.12",
+         "vmId": "****",
+         "vmSize": "Standard_B2s"
+     },
+     "network": {
+         "interface": [
+             {
+                 "ipv4": {
+                     "ipAddress": [
+                         {
+                             "privateIpAddress": "10.1.2.4",
+                             "publicIpAddress": "51.143.***.***"
+                         }
+                     ],
+                     "subnet": [
+                         {
+                             "address": "10.1.2.0",
+                             "prefix": "24"
+                         }
+                     ]
+                 },
+                 "ipv6": {
+                     "ipAddress": []
+                 },
+                 "macAddress": "******"
+             }
+         ]
+     }
+ }
